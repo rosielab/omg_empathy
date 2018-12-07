@@ -17,7 +17,7 @@ Specific the file paths in both scripts:
 `frame_path = ./path/to/save/mutual/laughter/frame/number`
 
 
-Todo: instruction on how to get the final csv file?(lets call it final features csv file)
+Todo: instruction on how to get the final csv file?(lets call it final features csv file?)
 
 
 
@@ -31,3 +31,18 @@ Run `python train_svm.py`. Specific the file paths in the script:
 
 ### Model 2
 Instruction on how to run bita's model
+
+### Result
+| Subject       | Baseline CCC  | Model 1 CCC  |
+| ------------- |-------------| -----|
+| Subject 1     | 0.01 | 0.59 |
+| Subject 2     | 0.11 | 0.15 |
+| Subject 3     | 0.04 | 0.50 |
+| Subject 4     | 0.1 |  0.22 |
+| Subject 5     | 0.11 | 0.28 |
+| Subject 6     | 0.35 | 0.30 |
+| Subject 7     | -0.01 | -0.16 |
+| Subject 8     | 0.05 | -0.01 |
+| Subject 9     | 0.05 | 0.11 |
+| Subject 10     | 0.10 | -0.02 |
+| Mean    | 0.091     |    0.19 |
