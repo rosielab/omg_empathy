@@ -1,7 +1,7 @@
 # omg_empathy
 Repository for the OMG-Empathy Challenge 2019
 
-### DARA PROCESSING 
+### Data Processing
 To get valence predictions on evey frames, extract faces from video and run `python process_data.py` on trainset.
 
 For testset, run `python process_data_trainset.py`
