@@ -33,7 +33,7 @@ Run `python train_svm.py`. Specific the file paths in the script:
 Instruction on how to run bita's model
 
 ### Result
-Test results on validation set:
+**Test results on validation set:**
 
 | Subject       | Baseline CCC  | Model 1 CCC  | Model 2 CCC |
 | ------------- |-------------| -----|-----|
@@ -49,9 +49,7 @@ Test results on validation set:
 | Subject 10     | 0.10 | -0.02 | |
 | Mean    | 0.091     |    0.19 | |
 
-Test results using five fold cross validation:
-
-**Personalized Track**
+**Test results using five fold cross validation:**
 
 | Subject       | Model 1 CCC  | Model 2 CCC |
 | ------------- |-------------| -------------|
