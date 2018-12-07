@@ -34,6 +34,7 @@ Instruction on how to run bita's model
 
 ### Result
 Test results on validation set:
+
 | Subject       | Baseline CCC  | Model 1 CCC  |
 | ------------- |-------------| -----|
 | Subject 1     | 0.01 | 0.59 |
@@ -49,7 +50,9 @@ Test results on validation set:
 | Mean    | 0.091     |    0.19 |
 
 Test results using five fold cross validation:
+
 **Personalized Track**
+
 | Subject       | CCC  | 
 | ------------- |-------------|
 | Subject 1     | 0.21 |
