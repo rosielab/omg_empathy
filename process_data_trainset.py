@@ -56,8 +56,8 @@ img_path = '../../OMGEmpathyChallenge-master/data/faces/test/'
 save_path = '../../OMGEmpathyChallenge-master/data/test/'
 frame_path = '../../OMGEmpathyChallenge-master/data/testmatch/'
 #file_name = get_name(path)
-r_path = './M_VGG/R_OUT.h5'
-c_path = './M_VGG/C_OUT.h5'
+r_path = './regressor.h5'
+c_path = './classifier.h5'
 count = 0
 for i in range(len(file_name)):
     filename = file_name[i]
