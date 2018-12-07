@@ -11,7 +11,7 @@ Todo: instruction on how to get the final csv file?
 
 
 ### Model 1
-Instruction on how to run zhitian's model
+Run `python train_svm.py`.
 
 ### Model 2
 Instruction on how to run bita's model
