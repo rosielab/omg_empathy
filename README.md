@@ -8,10 +8,13 @@ For testset, run `python process_data_trainset.py`.
 
 Specific the file path in both scripts:
 
-`path = where you saved your groundtruth labels`
-`img_path = where you saved your face images`
-`save_path = where you want to save the valence prediction`
-`frame_path = where you want to save the mutual laughter frame number`
+`path = ./path/to/groundtruth/labels`
+
+`img_path = ./path/to/face/images`
+
+`save_path = ./path/to/save/valence/prediction`
+
+`frame_path = ./path/to/save/mutual/laughter/frame/number`
 
 
 Todo: instruction on how to get the final csv file?
