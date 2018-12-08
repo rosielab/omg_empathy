@@ -10,13 +10,13 @@ print("parsing...")
 filetext = filename + ".txt"
 sxsx = filename + ".csv")
 frames = []
-co = pd.read_csv("Frames_Count.txt", delimiter=" - ",  names= ["name", "number"], engine='python') 
-for k, row in co.iterrows():
-	if ( row['name'] == sxsx ):
-		numberofFrames = int(filter(str.isdigit, row["number"]))
-indexF = []
-for k in range(1, numberofFrames+1):
-	indexF.append(k)
+#co = pd.read_csv("Frames_Count.txt", delimiter=" - ",  names= ["name", "number"], engine='python') 
+#for k, row in co.iterrows():
+#	if ( row['name'] == sxsx ):
+#		numberofFrames = int(filter(str.isdigit, row["number"]))
+#indexF = []
+#for k in range(1, numberofFrames+1):
+#	indexF.append(k)
 '''
 g = []
 g.append("csv/")

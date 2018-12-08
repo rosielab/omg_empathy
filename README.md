@@ -3,6 +3,12 @@ Code for paper: EmoCog Model for Multimodal Empathy Prediction
 
 Submission to the OMG-Empathy Challenge 2019
 
+### Requirements
+
+`pytorch`
+`OpenSMILE`
+`$ pip install -r requirements.txt `
+
 ### Data Processing
 To get valence predictions on evey frames and the mutual laughter frame number, extract faces from video and run `python process_data.py` on trainset. For testset, run `python process_data_trainset.py`. 
 
@@ -15,10 +21,6 @@ Specific the file paths in both scripts:
 `save_path = ./path/to/save/valence/prediction`
 
 `frame_path = ./path/to/save/mutual/laughter/frame/number`
-
-
-Todo: instruction on how to get the final csv file?(lets call it final features csv file?)
-
 
 
 ### Model 1
@@ -38,6 +40,8 @@ To test the model, run `python test_svm.py`. Specific the file paths in the scri
 
 
 ### Model 2
+Input desired file `Subject_X_Story_X`
+
 * [non-verbal features]
 	- openSmile feature extraction tool [https://www.audeering.com/technology/opensmile/]
 	- Emosic [https://arxiv.org/abs/1807.08775]
@@ -46,10 +50,15 @@ To test the model, run `python test_svm.py`. Specific the file paths in the scri
 	- TextBlob python API [https://textblob.readthedocs.io/en/dev/]
 
 The audio of each video extracted (using ffmpeg[https://www.ffmpeg.org/]).
+`ffmpeg -i OMG_Empathy2019/Training/Videos/Subject_X_Story_X.mp4  -vn -acodec pcm_s16le -ar 16000 -ac 1 wav/Subject_X_Story_X.wav`
 `Speech` folder consists of the text of each video alongside a csv file with time offset values (timestamps) for the beginning and end of each spoken word, using Speech-to-text Google API [https://cloud.google.com/speech-to-text/]
 
-`$ python src/parse.py `
+`$ bash preprocess/run.sh `
 input desired file `Subject_X_Story_X`
+
+To train a network (classifier, regression) based on the extracted features, in NN/classifier or NN/regression directory:
+`python main.py --mode train --subject X`
+`python main.py --mode test --subject X --story Y --checkpoint <path-to-checkpoint>`
 
 
 ### Result
