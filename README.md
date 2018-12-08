@@ -81,16 +81,16 @@ To train a network (classifier, regression) based on the extracted features, in 
 
 **Test results using five fold cross validation:**
 
-| Subject       | Model 1 CCC  | Model 2 CCC |
-| ------------- |-------------| -------------|
-| Subject 1     | 0.21 | |
-| Subject 2     | 0.20 | |
-| Subject 3     | 0.27 | |
-| Subject 4     | 0.19 | |
-| Subject 5     | 0.21 | |
-| Subject 6     | 0.08 | |
-| Subject 7     | 0.10 | |
-| Subject 8     | 0.06 | |
-| Subject 9     | 0.09 | |
-| Subject 10     | 0.21 | |
-| Mean    | 0.16     | |
+| Subject       | Model 1 CCC  |
+| ------------- |-------------|
+| Subject 1     | 0.21 | 
+| Subject 2     | 0.20 |
+| Subject 3     | 0.27 |
+| Subject 4     | 0.19 |
+| Subject 5     | 0.21 |
+| Subject 6     | 0.08 |
+| Subject 7     | 0.10 |
+| Subject 8     | 0.06 |
+| Subject 9     | 0.09 |
+| Subject 10     | 0.21 |
+| Mean    | 0.16     |
