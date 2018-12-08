@@ -3,6 +3,8 @@ Code for paper: EmoCog Model for Multimodal Empathy Prediction
 
 Submission to the OMG-Empathy Challenge 2019
 
+Model 1 - Submission 1. Model 2 - Submission 2.
+
 ### Requirements
 
 * `PyTorch`
