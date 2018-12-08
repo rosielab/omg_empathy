@@ -2,9 +2,7 @@
 Repository for the OMG-Empathy Challenge 2019
 
 ### Data Processing
-To get valence predictions on evey frames and the mutual laughter frame number, extract faces from video and run `python process_data.py` on trainset.
-
-For testset, run `python process_data_trainset.py`. 
+To get valence predictions on evey frames and the mutual laughter frame number, extract faces from video and run `python process_data.py` on trainset. For testset, run `python process_data_trainset.py`. 
 
 Specific the file paths in both scripts:
 
@@ -22,11 +20,19 @@ Todo: instruction on how to get the final csv file?(lets call it final features 
 
 
 ### Model 1
-Run `python train_svm.py`. Specific the file paths in the script:
+To train the model, run `python train_svm.py`. Specific the file paths in the script:
 
-`path = ./path/to/final/features/csv/files`
+`path = ./path/to/final/features/csv/files(trainset)`
 
 `savepath = ./path/to/save/svm/model`
+
+To test the model, run `python test_svm.py`. Specific the file paths in the script:
+
+`path = ./path/to/final/features/csv/files(testset`
+
+`savepath = ./path/to/save/test/results`
+
+`svmpath = ./path/to/saved/svm/models`
 
 
 ### Model 2
