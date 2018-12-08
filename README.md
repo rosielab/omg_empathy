@@ -40,7 +40,7 @@ To test the model, run `python test_svm.py`. Specific the file paths in the scri
 
 `svmpath = ./path/to/saved/svm/models`
 
-Processed features are provided in `./features_train/` and `./features_test`.
+Processed features are provided in `./features_train/` and `./features_test/`.
 
 
 ### Model 2
