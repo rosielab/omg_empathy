@@ -5,9 +5,9 @@ Submission to the OMG-Empathy Challenge 2019
 
 ### Requirements
 
-* `pytorch`
+* `PyTorch`
 * `OpenSMILE`
-* `$ pip install -r requirements.txt `
+* `pip install -r requirements.txt `
 
 ### Data Processing
 To get valence predictions on evey frames and the mutual laughter frame number, extract faces from video and run `python process_data.py` on trainset. For testset, run `python process_data_trainset.py`. 
