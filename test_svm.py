@@ -15,7 +15,7 @@ def get_name (folder):
 
 path = '../../OMGEmpathyChallenge-master/data/testfile/'
 savepath = '../../OMGEmpathyChallenge-master/data/test_result/'
-svmpath = '../../OMGEmpathyChallenge-master/data/svm/'
+svmpath = './svm/'
 file_name = get_name(path)
 Subject1 = []
 Subject2 = []
