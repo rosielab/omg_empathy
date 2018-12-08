@@ -57,17 +57,18 @@ input desired file `Subject_X_Story_X`
 
 | Subject       | Baseline CCC  | Model 1 CCC  | Model 2 CCC |
 | ------------- |-------------| -----|-----|
-| Subject 1     | 0.01 | 0.59 | |
-| Subject 2     | 0.11 | 0.15 | |
-| Subject 3     | 0.04 | 0.50 | |
-| Subject 4     | 0.1 |  0.22 | |
-| Subject 5     | 0.11 | 0.28 | |
-| Subject 6     | 0.35 | 0.30 | |
-| Subject 7     | -0.01 | -0.16 | |
-| Subject 8     | 0.05 | -0.01 | |
-| Subject 9     | 0.05 | 0.11 | |
-| Subject 10     | 0.10 | -0.02 | |
-| Mean    | 0.091     |    0.19 | |
+| Subject 1     | 0.01 | 0.59 | 0.35 |
+| Subject 2     | 0.11 | 0.15 | 0.31 |
+| Subject 3     | 0.04 | 0.50 | 0.45 |
+| Subject 4     | 0.1 |  0.22 | 0.29 |
+| Subject 5     | 0.11 | 0.28 | 0.24 |
+| Subject 6     | 0.35 | 0.30 | 0.39 |
+| Subject 7     | -0.01 | -0.16 |0.17 |
+| Subject 8     | 0.05 | -0.01 |0.19 |
+| Subject 9     | 0.05 | 0.11 |0.00 |
+| Subject 10     | 0.10 | -0.02 |0.12 |
+| Mean    | 0.091     |    0.19 | 0.25|
+
 
 **Test results using five fold cross validation:**
 
