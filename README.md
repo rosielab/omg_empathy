@@ -34,11 +34,13 @@ To train the model, run `python train_svm.py`. Specific the file paths in the sc
 
 To test the model, run `python test_svm.py`. Specific the file paths in the script:
 
-`path = ./path/to/final/features/csv/files(testset`
+`path = ./path/to/final/features/csv/files(testset)`
 
 `savepath = ./path/to/save/test/results`
 
 `svmpath = ./path/to/saved/svm/models`
+
+Processed features are provided in `./feature_train/` and `./feature_test`.
 
 
 ### Model 2
