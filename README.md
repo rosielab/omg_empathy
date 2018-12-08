@@ -37,7 +37,8 @@ Run `python train_svm.py`. Specific the file paths in the script:
 	- tone analyzer (IBM watson) [https://tone-analyzer-demo.ng.bluemix.net/]	
 	- TextBlob python API [https://textblob.readthedocs.io/en/dev/]
 
-Sounds and text of each video was extracted. Audio of each video is in `Wave_files` folder using ffmpeg[https://www.ffmpeg.org/] and `Speech` folder consists of text of each video alongside a csv file with time offset values (timestamps) for the beginning and end of each spoken word, using Speech-to-text Google API [https://cloud.google.com/speech-to-text/]
+The audio of each video extracted (using ffmpeg[https://www.ffmpeg.org/]).
+`Speech` folder consists of the text of each video alongside a csv file with time offset values (timestamps) for the beginning and end of each spoken word, using Speech-to-text Google API [https://cloud.google.com/speech-to-text/]
 
 `$ python src/parse.py `
 input desired file `Subject_X_Story_X`
